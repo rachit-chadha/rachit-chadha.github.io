@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Test AJAX page</title>
+  <link rel="stylesheet" type="text/css" href="./lab_styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="header">Test AJAX page</div>
+      <button class="button" onclick="loadData()">Load Some JSON</button>
+      <div class="content"></div>
+      <div class="footer"></div>
+    </div>
+  </div>
+  <script>
+
+    function CaseChange(string) {
+      var res = []
+      for (let i = 0; i < string.length; i+= 1) {
+        var curr = string[i]
+        if (i === 0){
+          res += curr.toUpperCase()
+          }
+        else if (string[i - 1] === " " || string[i - 1] === "." || string[i - 1] === "'") { 
+          res += curr.toUpperCase()
+          } 
+        else if (string[i - 1] != " " || string[i - 1] != ".") { 
+          res += curr.toLowerCase()
+          }
+        else if (string[i - 1] === " " && string[i] === "a" && string[i + 1] === "n" && string[i + 2] === "d" && string[i + 3] ===" " ||
+        string[i - 1] === " " && string[i] === "o" && string[i + 1] === "r" && string[i + 2] === " ") { 
+          res += curr.toLowerCase()
+          }
+        }
+        return res
+    }
+    function random_optimise(lesser, highest, i) {
+      lesser = Math.ceil(lesser);
+      highest -= i;
+      highest = Math.floor(highest);
+      return Math.floor(Math.random() * (highest - lesser + 1)) + lesser; 
+    }   
+    function loadData() {
+      fetch('ajax_sample.json')
+        .then(res => res.json())
+        .then(res => res.map(c => c.name))
+        .then(name => {
+            fetch("ajax_sample.json")
+              .then(res => res.json())
+              .then(res => res.map(c => c.code))
+        .then(code => {
+            var content = document.querySelector(".content");
+            content.innerText = "";
+        for (let i = 0; i < 15; i += 1){
+              var num = random_optimise(0, 242, i);
+              var lines = document.createElement("ol");
+              var index = i + 1;
+              var curr = CaseChange(name[num])
+              lines.innerText = index + ") " + curr + ", " + code[num];
+              content.appendChild(lines);
+              name.splice(num, 1);
+              code.splice(num, 1)
+                }
+            })
+        })
+    }
+  </script>
+</body>
+
+</html>
