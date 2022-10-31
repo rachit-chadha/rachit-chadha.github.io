@@ -1,61 +1,1020 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-    <title>Rachit's Resume</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Rachit's Personal Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Icons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+   <!-- Global site tag (gtag.js) - Google Analytics
+   ================================================== -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFSK6W596W"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'G-LFSK6W596W');
+   </script>
+
 </head>
 
 <body>
-    <div id="fullName">
-        <h1>Rachit Chadha</h1>
-    </div>
 
-    <div id="resumePage">
-        <div id="ProfessionalImage">
-            <img src="https://it.umd.edu/sites/divisionofit.umd.edu/files/DITMain_700-x-150.png" alt="Power of Technology" >
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a class="smoothscroll" href="#activities">Activities</a></li>
+            <li><a class="smoothscroll" href="#stats">Statistics</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+         <hr />
+
+         <div class="head_banner">
+            <div class="banner__content">
+               <div class="banner__text">
+                  Hi there, thanks for visiting my website! Looking forward to <a href="https://www.linkedin.com/in/rachitchadha/" target="_blank">connect</a> with you!
+               </div>
+               <button class="banner__close">
+                  <span class="material-icons">close</span>
+               </button>
+
+            </div> <!-- end #banner__content -->
+         </div>
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Rachit Chadha</h1>
+            <h3> <span>Data Analyst</span> | <span>Programmer</span> | <span>Consultant</span></h3>
+
+            <hr />
+            <ul class="social">
+               <li><a href="https://github.com/rachit-chadha"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/rachitchadha/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="mailto:rachitch@gmail.com"><i class="fa fa-envelope"></i></a></li>
+
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+<!-- about section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>About</h5>
+            <h1>Let me introduce myself.</h1>
+
+            <div class="intro-info">
+
+               <img src="images/profilepic.jpg" alt="Profile Picture">
+
+               <p class="lead">I'm a Technical consultant applying data science techniques for improving workflow and generating actionable insights. I'm also University of Maryland class of 2020 B.S. in Information Science, Data Science Specialiation. My primary interests have been Data Story telling, Machine Learning, Automation and the list is still growing. </p>
+            </div>
+
+         </div>
+      </div> <!-- /section-intro -->
+
+      <div class="row about-content">
+
+         <div class="col-six tab-full">
+
+            <h3>Profile</h3>
+            <p>As a Data & Analytics Consultant, my portfolio of accomplishments includes Database Design, Feature Engineering, Data Modeling, Dashboard Development and Automation. I am looking to educate myself further in the field of Data Science. If you feel that I am a good fit for your MS Program, please contant me via <a href="mailto:rachitch@gmail.com">rachitch@gmail.com</a>.</p>
+
+            <ul class="info-list">
+               <li>
+                  <strong>Fullname:</strong>
+                  <span>Rachit Chadha</span>
+               </li>
+               <li>
+                  <strong>Birth Date:</strong>
+                  <span>March 05, 1998</span>
+               </li>
+               <li>
+                  <strong>Email:</strong>
+                  <span>rachitch@gmail.com</span>
+               </li>
+
+            </ul> <!-- /info-list -->
+
+         </div>
+
+         <div class="col-six tab-full">
+
+            <h3>Skills</h3>
+            <p>I am a Data Enthusiast with experience in working in Team and Individual Projects. My areas of expertise are Data Science, Data Visualization and Asset Management. Below are highlights of my technical skills:</p>
+
+            <ul class="skill-bars">
+
+               <li>
+                  <div class="progress percent90"><span>90%</span></div>
+                  <strong>Python</strong>
+               </li>
+               <li>
+                  <div class="progress percent90"><span>90%</span></div>
+                  <strong>Power BI & Tableau</strong>
+               </li>
+               <li>
+                  <div class="progress percent80"><span>80%</span></div>
+                  <strong>SQL/Spark</strong>
+               </li>
+               <li>
+                  <div class="progress percent60"><span>60%</span></div>
+                  <strong>R</strong>
+               </li>
+               <li>
+                  <div class="progress percent60"><span>60%</span></div>
+                  <strong>Web Development</strong>
+               </li>
+
+               <li>
+                  <div class="progress percent70"><span>70%</span></div>
+                  <strong>Technical Consulting</strong>
+               </li>
+
+
+
+            </ul> <!-- /skill-bars -->
+         </div>
+
+      </div>
+
+      <div class="row button-section">
+         <div class="col-twelve">
+            <a href="#contact" title="Hire Me" class="button stroke smoothscroll">Get in Touch</a>
+            <a href="files/resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
+         </div>
+      </div>
+   </section> <!-- /process-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Resume</h5>
+            <h1>More of my credentials.</h1>
+
+            <p class="lead">Here are my work experiences and education.</p>
+
+         </div>
+      </div><!-- /section-intro -->
+
+      <!-- Work experience
+      ------------------------------------------------->
+      <div class="row resume-timeline">
+
+         <div class="col-twelve resume-header">
+
+            <h2>Work Experience</h2>
+
+         </div> <!-- /resume-header -->
+
+         <div class="col-twelve">
+
+            <div class="timeline-wrap">
+
+                <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-briefcase"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Data & Analytics Consultant</h3>
+                     <p>April 2022 - Present<br>New York City, NY</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4><a href="https://www.turnerandtownsend.com/en/amcl/" target="_blank">Turner & Townsend AMCL</a></h4>
+                     <p> Data lead for Capital Project Asset Management within AMCL working with with the United States Department of Housing and Urban Development.</p><p>Developed end-to-end product to automate data analytics insights for New York City Housing Authority's $3.3 Billion Asset Cluster and 116,000+ residents on PowerBI, sourcing through SQL management servers via Azure Virtual machine to Monitor and improve NYCHA’s asset management capabilities.</P><p>Developed automated webscraper to scrape and cluster weather data using Python's Selenium and Sci-kit Learn library, hosted on GCP.</p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-briefcase"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Project Controls Engineer</h3>
+                     <p>August 2020 - March 2022<br>Washington, DC</p>
+
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4><a href="https://www.consultaegis.com/technology/aegis-analytics/" target="_blank">Aegis</a></h4>
+                     <p> Consulted clients on multiple engineering projects related to energy, education, and government with individual projects valued at over $200M to generate insights and recomendations on project health, cost, and progress. </p><p>Developed Python script to collect contractor project data to source from SQL hosted server to design automated Dashboards using PowerBI and power query, to generate insights and recommendations on project health, cost, and progress.
+                     </p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-briefcase"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                    <h3>Analytics Research Assistant</h3>
+                    <p>August 2019 - May 2020<br>College Park, MD</p>
+                  </div>
+
+                  <div class="timeline-content">
+                    <h4><a href="https://careersinplay.umd.edu/rachit-chadha/" target="_blank">University of Maryland</a></h4>
+                    <p> Designed a web simulation with an agile approach that teaches cybersecurity and collaboration in STEM, funded by the National Science Foundation</p><p>Devised a learning analytics system using REST API interface with Python and MySQL, and integrated it into the University’s AWS infrastructure. More Details in <a href="#portfolio" title="projects" class="smoothscroll">projects</a></p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-briefcase"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Analyst Intern eSports & Gaming</h3>
+                     <p>May 2019 - August 2020<br>Singapore</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4><a href="https://intelextrememasters.com/" target="_blank">Intel Corporation</a></h4>
+                     <p> Formulated project plan for Intel Extreme Masters 2020 to increase reach across Asia Pacific's 40 Million eSports viewers. Scraped, analyzed, and visualized data for the eSports industry from Twitch and Steam via python, Twitch API, and Power BI to aid in executing 2 product strategy campaigns for APJ and ANZ regions within the Games and eSports team.
+                     </p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-briefcase"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Market Analyst</h3>
+                     <p>June 2018 - July 2018<br>New Delhi, India</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4><a href="https://sprocketprinters.com/" target="_blank">Hewlett-Packard</a></h4>
+                     <p>Cultivated a customer and competitor analysis to support market strategy for HP's handheld printer Sprocket via research, trend analysis, internal intelligence and industry reports to gather insights, resulting in a database of 4,000+ corporates to consolidate information for maturing campaign.
+
+                     </p>
+                  </div>
+               </div> <!-- /timeline-block -->
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-briefcase"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Founder & President</h3>
+                     <p>May 2017 - December 2017<br>New Delhi, India</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4><a href="https://officialinfundo.wordpress.com/" target="_blank">Infundo</a></h4>
+                     <p>Pioneered an investor education initiative with the aim to create a financially literate society, funded by HDFC Bank. Partnerd with NGO in India to organize financial literacy and investor awareness workshops for over 300 students from underprivileged households.
+                  </p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+
+               </div> <!-- /timeline-block -->
+
+            </div> <!-- /timeline-wrap -->
+
+
+
+         <div class="col-twelve resume-header">
+
+            <h2>Background Education</h2>
+
+         </div> <!-- /resume-header -->
+
+         <div class="col-twelve">
+
+            <div class="timeline-wrap">
+
+               <div class="timeline-block">
+
+                  <div class="timeline-ico">
+                     <i class="fa fa-pencil"></i>
+                  </div>
+
+                  <div class="timeline-header">
+                     <h3>Bachelor's Degree</h3>
+                     <p>August 2016 - May 2020</p>
+                  </div>
+
+                  <div class="timeline-content">
+                     <h4>University of Maryland</h4>
+                     <p>Majored in Information science, specialized in Data Science. </p><p>Ambassador to the Information Science program, Teaching Assistant, and Research Assistant for the College of Information Studies. </p><p>Founding Member of Kappa Theta Pi co-ed Professional Technology Fraternity and Mentor at BitCamp Hackathon</p>
+                  </div>
+
+               </div> <!-- /timeline-block -->
+
+               </div> <!-- /timeline-block -->
+
+            </div> <!-- /timeline-wrap -->
+
+         </div> <!-- /col-twelve -->
+
+      </div> <!-- /resume-timeline -->
+   </section>
+
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Projects</h5>
+            <h1>Check out my work.</h1>
+
+         </div>
+      </div><!-- /section-intro -->
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/DoctorMi.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Classification - Customer Churn</h5>
+                              <p>Machine Learning</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/dnaplotlib.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Web Analytics - SEM</h5>
+                              <p>Data Analysis</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/dotsaway.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Tableau Web Application</h5>
+                              <p>Web Development | Data Visualization</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/sift.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Yu-Gi-Oh Database</h5>
+                              <p>SQL Database Design</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/website.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Personal Website</h5>
+                              <p>Web Development</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div>  <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/syz.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Job Openings Webscraper</h5>
+                              <p>Programming</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/jellyfish.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>iCalorie</h5>
+                              <p>UX Project</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/ecig.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Housing Price Estimation</h5>
+                              <p>Statists | Machine Learning</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      ----------------------------------------------------------------->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-DoctorMi.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Classification - Customer Churn</h4>
+			      <p>Performed data cleaning, and feature engineering using Python’s Scikit-learn and TensorFlow to classify the churn rate of Telco customers using supervised learning models such as Light GBM, Logistic Regression, and Support Vector Classifier.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Python Sci-kit Learn, Tensor Flow, Statistical Modeling <hr>Machine Learning</hr></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/rachit-chadha/Data-Science/blob/main/Telco%20Customer%20Churn%20Classification.ipynb" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-dnaplotlib.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Web Analytics - SEM</h4>
+			      <p>Analyzed user data for an e-learning platform using Python’s NumPy, Pandas, Seaborn, and Matplotlib libraries to generate insights for increasing user engagement by tracking web KPIs such as churn rate, bounce rate, page exits, visits, searches, etc.
+                  </p>
+               <span class="categories"><i class="fa fa-tag"></i>Python - NumPy, Pandas, Seaborn & Matplotlib - Web KPI <hr> Web Data Analytics</hr></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/rachit-chadha/Data-Science/tree/main/Marketing%20Analytics%20-%20E-learning" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-dotsaway.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Tableau Web Application</h4>
+			      <p>Developed a web application with map visualizations using Tableau API of housing violations in PG county, MD for prospective homeowners. The server uses the Fetch API to GET information from PG County open-data portal visualized with Tableau.
+               <span class="categories"><i class="fa fa-tag"></i>NodeJS, HTML&CSS, Tableau, Fetch API <hr>Web Development | Data Analytics | Data Visualization</hr></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/rachit-chadha/Data-Science/tree/main/PG%20County%20Housing%20Violations" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-sift.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Yu-Gi-Oh Database</h4>
+			      <p>Collected data on the original 1999 Yu-Gi-Oh cards, created tables and an Entity Relationship Diagram, and developed a database using MySQL Workbench. Also, created varied views and queries to pull attributes as per user needs.</p>
+               <span class="categories"><i class="fa fa-tag"></i>MYSQL, Database Development, Joins, Queries, Views <hr> Database Design </Hr></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/rachit-chadha" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-website.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Personal Website</h4>
+			      <p>Created own personal website for showcasing my resume.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, javascript, css, html<hr> Web Development<hr></span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-syz.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Job Openings Webscraper</h4>
+			      <p>Developed Python script to webscrape job postings on Indeed.com for Data Science Positions for DC and Baltimore, MD locations. I then created a dataframe to save this data as a CSV file to help me in my job searching process.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Python BeautifulSoup, Pandas, Requests.get, RegEx <hr>Programming | Automation</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/rachit-chadha/Data-Science/tree/main/Webscrape%20Job%20Openings" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-jellyfish.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>iCalorie - UX</h4>
+			      <p>Provided students with a systematic platform, a mobile application to solve the information problem of making the nutritional information of the food served at the UMD dining services more accessible/available</p>
+               <span class="categories"><i class="fa fa-tag"></i>User Experience | Research | WireFrame Prototype <hr>UX | Wireframes | Prototyping </hr></span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://myicalorie.weebly.com/" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-ecig.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Housing Price Estimation</h4>
+			      <p>Exploratory Data Analysis and feature engineering of Housing Prices to estimate using Statistical Regression techniques. Python libraries used include Pandas, Matplotlib, Seaborn, Scipy and Sci-Kit Learn. </p>
+               <span class="categories"><i class="fa fa-tag"></i>Python - Pandas, Matplotlib, SciPy, Sci-kit Learn | Statistics - Normalization, Regression, Correlation Matrix <hr> Data Analytics | Statistics | Machine Learning</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/rachit-chadha/Data-Science/blob/main/Housing%20Price%20Estimation.ipynb" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-08 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+   <!-- activities Section
+   ==================================================-->
+   <section id="activities">
+
+      <div class="overlay"></div>
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Activities</h5>
+            <h1>My positions during undergraduate.</h1>
+
+            <p class="lead">Summary of my leadership & extracurricular activities</p>
+
+         </div>
+      </div> <!-- /section-intro -->
+
+      <div class="row activity">
+
+         <div class="twelve columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Ambassador - UMD iSchool</h3>
+                  <p class="info">College of Information Studies<span>&bull;</span> <em class="date">January 2020 - June 2020</em></p>
+
+                  <p>
+                  Represented the InfoSci program as a professional leader. <br>
+                  Tend to admitted and prospective student inquiries and communication. <br>
+                  Assist academic advisors with unique academic needs of students. <br>
+                  Develop visualization tool to give insights on staffing for busy weeks.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Founder & Director of Engagement</h3>
+                  <p class="info">Kappa Theta Pi Professional Technology Fraternity<span>&bull;</span> <em class="date">Fall 2017 - May 2020 </em></p>
+
+                  <p>
+                  Founding class Board Member and Engagement Director. <br>
+                  Orchestrated technical development workshops on Python, PowerBI and Brand. <br>
+                  Engaged International students with workshops on diversity and inclusion. <br>
+                  Developed database of university resources for Mental Health Counseling.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Learning Analytics Research Assistant</h3>
+                  <p class="info">College of Information Studies, University of Maryland <span>&bull;</span> <em class="date">August 2019 - May 2020</em></p>
+
+                  <p>
+                  Developed a web simulation to promote STEM Careers funded by the NSF. <br>
+                  Devised a Cloud integrated learning analytics system using REST with Python and MySQL <br>
+                  Lead a research initiative to scrape and present games data to BYU and Indiana universities.
+                  <a href="https://careersinplay.umd.edu/rachit-chadha/" target="_blank">Link</a>
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Teaching Assistant</h3>
+                  <p class="info">Biology Interdisplinary Open Maker Environment, Stanford<span>&bull;</span> <em class="date">August 2019 - December 2019</em></p>
+
+                  <p>
+                  Facilitated discussions and graded assignments for Organizational Design at the iSchool.<br>
+                  Assisted with material generation, lesson plan development, exam distribution and mentoring.<br>
+                  Held office hours for 50 undergraduate students for information-enabled change projects.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Hackathon Mentor</h3>
+                  <p class="info">BitCamp Hackathon - University of Maryland<span>&bull;</span> <em class="date">Spring 2019</em></p>
+
+                  <p>
+                  Mentor of Students at the University of Maryland’s flagship Hackathon - BitCamp. <br>
+                  Assisted in Software development, UX design and Data Visualization to fulfill projects for submission.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+   </section> <!-- /activities -->
+
+
+   <!-- stats Section
+   ================================================== -->
+   <section id="stats" class="count-up">
+
+      <div class="row">
+         <div class="col-twelve">
+
+            <div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-file"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     150+
+                  </h3>
+
+                  <h5 class="stat-title">
+                    Projects Participated
+                  </h5>
+
+               </div> <!-- /stat -->
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-trophy"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     80+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Volunteer Hours
+                  </h5>
+
+               </div> <!-- /stat -->
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-magic"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     100+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Crazy Ideas
+                  </h5>
+
+               </div> <!-- /stat -->
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-code"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     1000+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Hours Analyzing Data
+                  </h5>
+
+               </div> <!-- /stat -->
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-globe"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     3+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Countries Worked
+                  </h5>
+
+               </div> <!-- /stat -->
+
+               <div class="bgrid stat">
+
+                  <div class="icon-part">
+                     <i class="fa fa-book"></i>
+                  </div>
+
+                  <h3 class="stat-count">
+                     200+
+                  </h3>
+
+                  <h5 class="stat-title">
+                     Books Read
+                  </h5>
+
+               </div> <!-- /stat -->
+
+            </div> <!-- /stats-list -->
+
+         </div> <!-- /twelve -->
+      </div> <!-- /row -->
+
+   </section> <!-- /stats -->
+
+
+   <!-- contact
+   ================================================== -->
+   <section id="contact">
+
+      <div class="row section-intro">
+         <div class="col-twelve">
+
+            <h5>Contact</h5>
+            <h1>I'd Love To Connect With You.</h1>
+
+            <p class="lead">Let me get to know more about you.</p>
+
+         </div>
+      </div> <!-- /section-intro -->
+
+      <div class="row contact-info">
+
+         <div class="col-four tab-full">
+
+            <div class="icon">
+               <i class="fa fa-location-arrow"></i>
+            </div>
+
+            <h5>Where to find me</h5>
+
+            <p>
+            Washington, DC<br>
             <br>
-            <br>
-            <figcaption style="text-align: center"> Marketing | UX | Analytics enthusiast seeking positions </figcaption> 
-        
-        </div>
-        
-        <div class="ResumeExperience"> 
-            <div class=section>
-            <h3>Teaching Assistant </h3>
-            <h5>University of Maryland, College of information Studies      August 2019-Present</h5>
-            <h6>Description</h6>
-            <h7>Responsible for performing duties relating to teaching and grading to assist members of faculty </h7>
-            <ul>
-                <li>Teaching, grading and holding office hours as a teaching assistant for Organisational Design at the iSchool</li>
-                <li>Assisting in schedule planning for the semester, project management and making assessments</li>
-            </ul>
+            USA
+            </p>
+
+         </div>
+
+         <div class="col-four tab-full collapse">
+
+            <div class="icon">
+               <i class="icon-mail"></i>
             </div>
-            <div class=section>
-            <h3>Research Assistant </h3>
-            <h5>University of Maryland, College of information Studies      August 2019-Present</h5>
-            <h6>Description</h6>
-            <h7> University of Maryland with BYU and Indianna University, through a grant, making a playable case study and a cybersecurity/crisis response game for the university as an open source project to promote STEM careers. </h7>
-            <ul>
-                <li>Scraping, gathering and visualising data as a research assistant for the iSchool under careers in play project</li>
-                <li>Leading games research team and working on Learning Analytics platform of the game using Rest API</li>
-            </ul>
+
+            <h5>Email Me At</h5>
+
+            <p>rachitch@gmail.com<br>
+            </p>
+
+         </div>
+
+	 <div class="col-four tab-full collapse">
+
+            <div class="icon">
+               <i class="fa fa-linkedin"></i>
             </div>
-            <div class=section>
-            <h3>Strategic Marketing Specialist - eSports and Gaming </h3>
-            <h5>Intel Corporation, Singapore      May 2019-August 2019</h5>
-            <h6>Description</h6>
-            <h7>Intel brands one of the worlds most famous eSports event 'Intel Extreme Masters'. IEM occurs in regions all around the globe. Here, I was responsible for all operations, planning and introduction of new trends for IEM Sydney 2020 </h7>
-            <ul>
-                <li>Creating, managing and executing strategy campaigns for APJ and ANZ region with respect to Gaming and eSports industry.</li>
-                <li>Leading project plan for Intel Extreme Masters 2020, one of the most popular eSports events in the world.</li>
-                <li>Scraping and analyzing data regarding the eSports industry from social media and steam.</li>
-                <li>Collaborated with UX and marketing teams of Australia, Japan, Taiwan and Korea to audit digital marketing content of Intel products on specialty accounts.</li>
+
+            <h5>Let's Connect</h5>
+            <a href="https://www.linkedin.com/in/rachitchadha" target="_blank">LinkedIn Profile</a>
+
+         </div>
+
+      </div> <!-- /contact-info -->
+
+   </section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="copyright">
+               <li>Edit by Rachit Chadha</li>
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
             </ul>
-            </div>
-        </div>
-    </div>
-    <div id="link">
-    <a href="https://www.linkedin.com/in/rachitchadha/" target="_blank"><img src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-png-transparent.png" alt="Linkdin" ></a></b></p>
-    </div>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
 
 </html>
