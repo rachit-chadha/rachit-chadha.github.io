@@ -61,7 +61,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 1000px;
    min-height: 500px;
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
@@ -83,7 +83,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -91,12 +91,12 @@ header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
-   letter-spacing: -2px;
-   margin: 0 auto 18px auto;
+   letter-spacing:1px;
+   margin: 0 auto 5px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px/1.9em 'librebaskerville-bold', serif;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
@@ -108,16 +108,16 @@ header .banner-text h3 a {
 }
 header .banner-text hr {
    width: 60%;
-   margin: 18px auto 24px auto;
+   margin: 10px auto 20px auto;
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
 
 /* header social links */
 header .social {
-   margin: 24px 0;
+   margin: 0px 0;
    padding: 0;
-   font-size: 30px;
+   font-size: 45px;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
 }
 header .social li {
@@ -171,7 +171,7 @@ header .scrolldown a:hover { color: #11ABB0; }
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #232222; }
 .banner__text { text-transform: none; }
 
 /* hide toggle button */
@@ -296,7 +296,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .about-content .info-list li strong {
   font-family: 'opensans-bold', sans-serif;
-  color: #313131;
+  color: #888888;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-size: 1.5rem;
@@ -423,7 +423,7 @@ ul#nav li.current a { color: #F06000; }
 /**
  * responsive:
  * resume
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
   #resume .timeline-header {
@@ -627,12 +627,12 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #161415;
    padding-top: 90px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   color: black;
+   color: white;
 }
 
 /* Portfolio Content */
@@ -874,11 +874,11 @@ ul#nav li.current a { color: #F06000; }
     cursor: default;
 }
 
-/** 
+/**
  * ===================================================================
  * f. Activities - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #activities {
   background: black url(../images/bg.jpg) no-repeat center;
@@ -947,11 +947,11 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
-/** 
+/**
  * ===================================================================
  * g. stats - (_layout.scss)
  *
- * ------------------------------------------------------------------- 
+ * -------------------------------------------------------------------
  */
 #stats {
   background: #11ABB0;
@@ -1261,4 +1261,3 @@ footer .social-links li:first-child { margin-left: 0; }
 .skill-bars li .percent90  { width: 90%; }
 .skill-bars li .percent95  { width: 95%; }
 .skill-bars li .percent100 { width: 100%; }
-

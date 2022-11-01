@@ -1,7 +1,7 @@
-# Rachit's Personal Website Resume - CS/DS
+# Rachit's Personal Website Resume 
 
 Edited by Rachit Chadha
-Shoutout to Styleshout for their Design elements!
+Shoutout to Styleshout for their Design elements! This website is based on Styleshout Ceevee and Kards Designs which I have edited and merged to create a unique experience. I hope you like it! 
 
 
 For any questions please contact rachitch@terpmail.umd.edu
