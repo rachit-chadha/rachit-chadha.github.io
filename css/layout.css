@@ -256,20 +256,20 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .intro-info {
-  margin-top: 4.2rem;
-  margin-right: -7px;
-  margin-left: -10px;
+  margin-top: 4.1rem;
+  margin-right: -10px;
+  margin-left: -50px;
 }
 .intro-info img {
-  height: 23rem;
-  width: 23rem;
-  border:2px solid #F06000;
-  margin: 0 auto;
-  float: top ;
+  height: 20rem;
+  width: 20rem;
+  border:1px solid #F06000;
+  margin: 4 auto;
+  float: left ;
 }
 .intro-info .lead {
   text-align: justify;
-  padding-left: -1rem;
+  padding-left: 23rem;
   padding-right: -1rem;
 }
 
