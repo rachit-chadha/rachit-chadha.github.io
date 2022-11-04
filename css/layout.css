@@ -257,20 +257,20 @@ ul#nav li.current a { color: #F06000; }
 
 .intro-info {
   margin-top: 4.2rem;
-  margin-right: -30px;
-  margin-left: -50px;
+  margin-right: -7px;
+  margin-left: -10px;
 }
 .intro-info img {
-  height: 20rem;
-  width: 20rem;
-  border-radius: 50%;
-  border:1px solid #F06000;
-  margin: .8rem .8rem 0 3rem;
-  float: left;
+  height: 23rem;
+  width: 23rem;
+  border:2px solid #F06000;
+  margin: 0 auto;
+  float: top ;
 }
 .intro-info .lead {
   text-align: justify;
-  padding-left: 21rem;
+  padding-left: -1rem;
+  padding-right: -1rem;
 }
 
 .about-content {
