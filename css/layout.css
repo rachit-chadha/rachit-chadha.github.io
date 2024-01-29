@@ -502,7 +502,7 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 
 .bars {
-	width: 95%;
+	width: 100%;
 	float: left;
 	padding: 0;
 	text-align: left;
@@ -1204,42 +1204,27 @@ footer .social-links li:first-child { margin-left: 0; }
 .skill-bars li strong {
   position: absolute;
   left: 0;
-  top: -3rem;
+  top: -4rem;
   font-family: "poppins-bold", sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  font-size: 1.5rem;
-  line-height: 2.4rem;
+  font-size: 1.20rem;
+  line-height: 2.5rem;
 }
 .skill-bars li .progress {
   background: #A1A1A1;
   position: relative;
   height: 100%;
 }
-.skill-bars li .progress span {
-  position: absolute;
-  right: 0;
-  top: -3.6rem;
-  display: block;
-  font-family: "poppins-regular", sans-serif;
-  color: white;
-  font-size: 1.1rem;
-  line-height: 1;
-  background: #313131;
-  padding: .6rem .6rem;
-  border-radius: 3px;
+@media only screen and (max-width: 600px) {
+  .skill-bars li .progress span {
+    font-size: 0.9em; /* Smaller font size for smaller screens */
+    padding: 0.4em; /* Adjust padding */
+    top: -2.8rem; /* Adjust top position */
+  }
 }
-.skill-bars li .progress span::after {
-  position: absolute;
-  left: 50%;
-  bottom: -5px;
-  margin-left: -5px;
-  border-right: 5px solid transparent;
-  border-left: 5px solid transparent;
-  border-top: 5px solid #313131;
-  content: "";
-}
+
 
 .skill-bars li .percent5   { width: 5%; }
 .skill-bars li .percent10  { width: 10%; }
