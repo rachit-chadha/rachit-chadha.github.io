@@ -61,7 +61,8 @@ The site has no frontend framework, build process, tracking scripts, or third-pa
 ├── assets/
 │   └── Rachit-Chadha-Resume.pdf
 └── .nojekyll
-'''
+
+```
 # Copyright
 Website design, content, and project descriptions are © Rachit Chadha.
 Professional project descriptions are intentionally summarized. Client-sensitive data, internal systems, and confidential implementation details are not included.
