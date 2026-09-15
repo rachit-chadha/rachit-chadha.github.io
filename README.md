@@ -1,28 +1,67 @@
-# Rachit's Personal Website Resume 
+# Rachit Chadha | Data & AI Portfolio
 
-Edited by Rachit Chadha. 
-Shoutout to Styleshout for their Design elements! This website is based on Styleshout Ceevee and Kards Design elements which I have merged to create a unique experience. I hope you like it! 
+Personal portfolio showcasing my work across data science, machine learning, AI, data engineering, and interactive visualization.
 
+**Live site:** [rachit-chadha.github.io](https://rachit-chadha.github.io/)
 
-For any questions please contact rchadha33@gatech.edu
+## About
 
-SOURCES AND CREDITS:
+I am a Senior Data Scientist with experience building data products from the ground up, including predictive models, AI systems, data pipelines, and decision-ready visual tools.
 
-Fonts:
- - Inter Font (https://fonts.google.com/specimen/Inter)
- - DM Serif Text Font (https://fonts.google.com/specimen/DM+Serif+Text)
- - DM Serif Display Font (https://fonts.google.com/specimen/DM+Serif+Display)
+My work spans public infrastructure, asset management, product analytics, geospatial applications, and AI research. I focus on turning complex data into systems that people can understand, trust, and use.
 
-Icons:
- - Teenyicons (https://teenyicons.com/)
- - FontAwesome (https://fontawesome.com/)
+## Featured Work
 
-Stock Photos and Graphics:
- - Unsplash.com (https://unsplash.com/)
+The portfolio highlights projects across four areas:
 
-Javascript Files:
- - JQuery (http://jquery.com/)
- - Modernizr (http://modernizr.com/)
- - Slick slider (http://kenwheeler.github.io/slick/)
- - Animate On Scroll (https://michalsnik.github.io/aos/)
- - PrismJS (https://prismjs.com/)
+- Data science and predictive modeling
+- Machine learning and generative AI
+- Data engineering and cloud platforms
+- Data visualization and geospatial analytics
+
+Featured projects include:
+
+- Boiler Asset Intelligence
+- Efficient LoRA with Sparse Attention
+- Project Tidal
+- Payout Forecasting
+- RatSight NYC
+
+Additional research, analytics, and engineering projects are available through the interactive filters on the website.
+
+## Built With
+
+- Semantic HTML
+- Custom CSS
+- Vanilla JavaScript
+- Responsive layouts
+- Inline SVG visualizations
+- GitHub Pages
+
+The site has no frontend framework, build process, tracking scripts, or third-party UI dependencies.
+
+## Features
+
+- Interactive capability map
+- Filterable project portfolio
+- Expandable project collection
+- Dark and light themes
+- Responsive desktop and mobile design
+- Reduced-motion accessibility support
+- Downloadable resume
+- Direct links to project papers, notebooks, repositories, and live demos
+
+## Project Structure
+
+```text
+.
+├── index.html
+├── styles.css
+├── script.js
+├── assets/
+│   └── Rachit-Chadha-Resume.pdf
+└── .nojekyll
+
+Copyright
+Website design, content, and project descriptions are © Rachit Chadha.
+Professional project descriptions are intentionally summarized. Client-sensitive data, internal systems, and confidential implementation details are not included.
